@@ -1,0 +1,40 @@
+# Object files
+*.o
+*.ko
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Autotools
+config.*
+
+**/.dirstamp
+**/*.lo
+**/*.la
+**/*Test
+
+**/.libs/
+
+
+libmonit/Makefile
+libmonit/libtool
+libmonit/test/Makefile
+
+Makefile
+libmonit/src/stamp-h1
+libmonit/src/xconfig.h
+libtool
+src/stamp-h1
+
